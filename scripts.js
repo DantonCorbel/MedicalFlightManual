@@ -21,3 +21,9 @@ console.log(toc);
 for (let subject in toc) {
   container.innerHTML += `<p>${toc[subject].title}<p>`
 }
+
+const response = await fetch('./jsonFolder/toc.json');
+
+const json = await response.json();
+
+console.log(JSON.stringify(json));
