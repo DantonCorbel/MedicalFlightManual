@@ -16,7 +16,7 @@ fetch('./jsonFolder/toc.json')
         }).catch(err => console.error(err));
 
 const toc = fetch('./jsonFolder/toc.json')
-        .then(res => res.json())
+        //.then(res => res.json())
 
 for (let subject in toc) {
   container.innerHTML += `<p>${toc[subject].title}<p>`
