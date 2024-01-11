@@ -12,8 +12,8 @@ fetch('./jsonFolder/toc.json')
             console.log(data);
         }).catch(err => console.error(err));
 
-const toc = fetch('./jsonFolder/toc.json');
-        //.then(res => res.json())
+const toc = fetch('./jsonFolder/toc.json')
+          .then(res => res.json())
           .then((data) => {data}
 console.log(JSON.stringify(toc));
 for (let subject in toc) {
