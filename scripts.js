@@ -21,7 +21,7 @@ console.log(JSON.stringify(toc));
 for (let subject in toc) {
   container.innerHTML += `<p>${toc[subject].title}<p>`
 }
-
+/*
 const response = await fetch('./jsonFolder/toc.json');
 
 const json = await response.json();
@@ -33,3 +33,4 @@ const stringifiedJSON = JSON.stringify(json);
 for (let subject in stringifiedJSON) {
   container.innerHTML += `<p>${stringifiedJSON[subject].title}<p>`
 }
+*/
