@@ -1,0 +1,107 @@
+[
+  {
+    "title" : "Housekeeping",
+    "subtitle" : [
+      {
+        "safety" : {
+
+        }
+      },
+      {
+        "altitude" : {
+
+        }
+      },
+      {
+        "findingThings" : {
+
+        }
+      }
+    ]
+  },
+  {
+    "title" : "Cardiology",
+    "subtitle" : [
+      {
+        "mi" : {
+
+        }
+      },
+      {
+        "scape" : {
+
+        }
+      },
+      {
+        "bradyarrythmias" : {
+
+        }
+      },
+      {
+        "aorticDissection" : {
+
+        }
+      }
+    ]
+  },
+  {
+    "title" : "Respiratory",
+    "subtitle" : [
+      {
+        "asthma" : {
+
+        }
+      }
+    ]
+  },
+  {
+    "title" : "Neurology",
+    "subtitle" : [
+      {
+        "subarachnoid" : {
+
+        }
+      },
+      {
+        "subdural" : {
+
+        }
+      }
+    ]
+  },
+  {
+    "title" : "Obstetrics",
+    "subtitle" : [
+      {
+        "preEclampsia" : {
+
+        }
+      },
+      {
+        "eclampsia" : {
+
+        }
+      },
+      {
+        "postpartumBleed" : {
+
+        }
+      }
+    ]
+  },
+  {
+    "title" : "Kids",
+    "subtitle" : [
+      {
+        "kidsTravel" : {
+
+        }
+      },
+      {
+        "kidsEmergency" : {
+
+        }
+      }
+    ]
+  }
+]
