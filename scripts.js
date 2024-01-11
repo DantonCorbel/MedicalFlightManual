@@ -19,5 +19,5 @@ const toc = fetch('./jsonFolder/toc.json')
         .then(res => res.json())
 
 for (let subject in toc) {
-  container.innerHTML += `<p>${toc[subject]}<p>`
+  container.innerHTML += `<p>${toc[subject].title}<p>`
 }
