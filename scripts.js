@@ -1,12 +1,9 @@
-const container = document.getElementById("subjects");
-container.innerHTML += `
-  <p>adding new content</p>
-`;
+const leftContainer = document.getElementById("subjects");
 
 const subjectArray = ["Respiratory", "Cardiology", "General"]
 
 for (let subject in subjectArray) {
-  container.innerHTML += `<p>${subjectArray[subject]}<p>`
+  leftContainer.innerHTML += `<p>${subjectArray[subject]}<p>`
 }
 
 fetch('./jsonFolder/toc.json')
@@ -17,9 +14,10 @@ fetch('./jsonFolder/toc.json')
 
 const toc = fetch('./jsonFolder/toc.json');
         //.then(res => res.json())
+          .then((data) => {data}
 console.log(JSON.stringify(toc));
 for (let subject in toc) {
-  container.innerHTML += `<p>${toc[subject].title}<p>`
+  leftContainer.innerHTML += `<p>${toc[subject].title}<p>`
 }
 /*
 const response = await fetch('./jsonFolder/toc.json');
